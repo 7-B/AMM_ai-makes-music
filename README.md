@@ -4,7 +4,7 @@
  음악을 작곡 지식이 없더라도 만들어보고 싶다!
 
 
-> <img src="pirl/flow.png" width="200">
+> <img src="flow.png" width="200">
 
 ## Weekly records
 
