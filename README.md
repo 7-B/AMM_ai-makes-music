@@ -11,7 +11,7 @@
 <summary> week1 </summary>
 <div markdown='1'>
   
- - input : Fruit genie 를 활용한 입력장치  
+ - **input : Fruit genie 를 활용한 입력장치**  
            magenta_fruit genie
            
            구성요소
