@@ -3,7 +3,7 @@
 ## project
  음악을 작곡 지식이 없더라도 만들어보고 싶다!
 
-![flow](./home/pirl/flow.png)
+![flow](./pirl/flow.png)
 
 ## Weekly records
 
