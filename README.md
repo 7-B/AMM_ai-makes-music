@@ -29,14 +29,24 @@
 3. 마젠타 music-VAE 모델로 작곡하기
    최대 3개의 음을 조합하여 음악을 생성. -> pre-trained 모델을 돌려보기 위해 모델 실행 중
 
+</div>
+</details>
 
+---  
 <details>
-<summary> week2 </summary>
-<div markdown='2'>
- 
- 
- <details>
-<summary> schedule planning </summary>
-<div markdown='6'>
- 
+<summary> Week2 </summary>
+<div markdown="1">
+
+ - INPUT : Fruit genie 를 활용한 입력장치  
+           magenta_fruit genie
+           
+
+</div>
+</details>
+
+---  
+<details>
+<summary> PLAN </summary>
+<div markdown="1">
+![schedule](https://user-images.githubusercontent.com/52736420/64063336-42a23780-cc2e-11e9-97fd-9e1de9192605.png) 
  
