@@ -34,7 +34,7 @@
 
 ---  
 <details>
-<summary> Week2 </summary>
+<summary> week2 </summary>
 <div markdown="1">
 
  - INPUT : Fruit genie 를 활용한 입력장치  
