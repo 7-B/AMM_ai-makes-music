@@ -12,7 +12,7 @@
 <div markdown='1'>
   
  - INPUT : Fruit genie 를 활용한 입력장치  
-           magenta_fruit genie
+            magenta_fruit genie
            
            구성요소
            1. 라즈베리 파이 : 터치를 받아 피오노 지니 소프트웨어로 전송하고 메모를 재생하는 노드앱 실행
@@ -20,8 +20,9 @@
            
     ![structure](https://user-images.githubusercontent.com/52736420/64146446-00f4d500-ce58-11e9-8b8d-6e14b6356dc7.png)       
 
-- 시스템 구조도 : 음악 데이터를 RNN모델인 LSTM 모델을 통해 학습 시킨 후, 사용자가 음악을 입력하면 LSTM모델을 통하여 비슷한 느낌의 음악을 생성
-
+- 시스템 구조도 : 음악 데이터를 RNN모델인 LSTM 모델을 통해 학습 시킨 후, 사용자가 음악을 입력하면 LSTM모델을 통하여 비슷한 느낌의 음악을 생성  
+![image](https://user-images.githubusercontent.com/52736420/64146533-53ce8c80-ce58-11e9-899b-42cd9f715e0f.png)
+  
 - **진행상황**
 1. 케라스 LSTM 모델로 작곡하기
    Music21 -> 20시간 학습시킨 결과 추상적인 음악. -> 훨씬 깊고 복잡한 네트워크를 만들고 학습시킬 필요성   
@@ -41,7 +42,10 @@
 <div markdown="1">
 
  - INPUT : Fruit genie 를 활용한 입력장치  
-           magenta_fruit genie
+            magenta_fruit genie
+            
+           1. 라즈베리 파이 : node app.js 실행 문제 (mpg123 : 오디오 출력 역할 문제)
+           2. teensy dev 보드 : 스케치를 다운 받아 터치에 따른 반응 변화 확인 
            
 
 </div>
