@@ -40,6 +40,7 @@
 <details>
 <summary> week2 </summary>
 <div markdown="1">
+  
 
 - **진행상황**
  <INPUT> : Fruit genie 를 활용한 입력장치  
@@ -55,6 +56,38 @@
 </details>
 
 ---  
+
+<details>
+<summary> week3 </summary>
+<div markdown='1'>
+
+  
+- **진행상황**
+ <INPUT> : Fruit genie 를 활용한 입력장치
+ 
+ 1. 라즈베리 파이 : 오디오 출력 부분 오류 → 소프트웨어와 직접 연결 방식 선택
+ 2. teensy dev 보드 : 터치 인식 후 소리 재생 확인
+ 
+- **python 을 활용한 serial data 실시간 받기**  
+             
+      [window cmd] pip install pyserial  
+      
+      [python]
+      import serial
+      import time
+      import signal
+      import threading
+      import winsound #소리 재생
+
+
+
+
+
+</div>
+</details>
+
+---  
+
 ### PLAN  
  
  
