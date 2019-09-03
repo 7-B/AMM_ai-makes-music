@@ -41,12 +41,15 @@
 <summary> week2 </summary>
 <div markdown="1">
 
- - INPUT : Fruit genie 를 활용한 입력장치  
-            magenta_fruit genie
-            
-           1. 라즈베리 파이 : node app.js 실행 문제 (mpg123 : 오디오 출력 역할 문제)
-           2. teensy dev 보드 : 스케치를 다운 받아 터치에 따른 반응 변화 확인 
-           
+- **진행상황**
+ <INPUT> : Fruit genie 를 활용한 입력장치  
+   
+1. 라즈베리 파이 : node app.js 실행 문제 (mpg123 : 오디오 출력 역할 문제)
+2. teensy dev 보드 : 스케치를 다운 받아 터치에 따른 반응 변화 확인 
+  
+ ![image](https://user-images.githubusercontent.com/52736420/64146977-d9067100-ce59-11e9-9e3f-5c0b23ceb1a7.png)
+
+
 
 </div>
 </details>
