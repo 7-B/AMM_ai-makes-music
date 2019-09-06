@@ -94,11 +94,11 @@
 
 - **역할 분담**  
 
- 유원호 : audio generation  
- 최영철 : imrovement melody-rnn & music VAE  
- 이슬기 : servere  
- 주선정 : fruit touch, input data  
- 정성원 : magenta gpu  
+      유원호 : audio generation  
+      최영철 : imrovement melody-rnn & music VAE  
+      이슬기 : servere  
+      주선정 : fruit touch, input data  
+      정성원 : magenta gpu  
 
 
 
