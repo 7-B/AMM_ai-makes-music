@@ -78,6 +78,11 @@
       import signal
       import threading
       import winsound #소리 재생
+      
+ <INPUT> : music vae 를 이용한 학습
+ 
+ 1. 재즈로 학습
+ 2. k-pop으로 학습 check point 300까지 진행
 
 
 
