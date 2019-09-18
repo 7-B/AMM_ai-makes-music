@@ -49,7 +49,7 @@
   : Music21 -> 20시간 학습시킨 결과, 추상적인 음악 -> 훨씬 깊고 복잡한 네트워크를 만들고 학습시킬 필요성   
      
 2. 마젠타 melody-rnn으로 작곡하기  
-  : pre-trained 모델을 가지고 음악을 생성 -> 다른 장르의 음악을 가지고 커스터마이징된 모델 파라미터를 학습시키는 중  
+  : pre-trained 모델을 가지고 음악을 생성 -> 다른 장르의 음악으로 커스터마이징된 모델 파라미터를 학습시키는 중  
      
 3. 마젠타 music-VAE 모델로 작곡하기  
   : 최대 3개의 음을 조합하여 음악을 생성. -> pre-trained 모델을 돌려보기 위해 모델 실행 중
@@ -67,6 +67,7 @@
 - **진행상황**  
 1. 라즈베리 파이  
   : mpg123 : 오디오 출력 역할 부분 문제 -> 버전을 맞추거나, 따로 오디오 출력 라이브러리를 설치할 계획  
+    
 2. teensy dev 보드  
   : 스케치를 다운 받아 터치에 따른 반응 변화 확인 V  
   
@@ -84,30 +85,22 @@
 <div markdown='1'>
 
   
-- **진행상황**
- <INPUT> : Fruit genie 를 활용한 입력장치
- 
- 1. 라즈베리 파이 : 오디오 출력 부분 오류 → 소프트웨어와 직접 연결 방식 선택
- 2. teensy dev 보드 : 터치 인식 후 소리 재생 확인
- 
-- **python 을 활용한 serial data 실시간 받기**  
-             
-      [window cmd] pip install pyserial  
+- **진행상황**  
+ 1. 라즈베리 파이 
+    : 오디오 출력 부분 오류 -> 소프트웨어와 직접 연결 방식 선택 (USB, serial 통신)  
       
-      [python]
-      import serial
-      import time
-      import signal
-      import threading
-      import winsound #소리 재생
+ 2. teensy dev 보드 
+    : 터치 인식 후 소리 재생 확인 V  
       
- <INPUT> : music vae 를 이용한 학습
+ 3. melody RNN
+    : K-POP 1990년대 음악의 midi 파일 학습 
+      
+ 4. music VAE
+    : JAZZ 생성 구축 모델, k-pop으로 학습 check point 300까지 진행 (CNN)
+    
+ 5. score2perf
+    : 가장 음악다운 음악을 생성해주는 모델, classic 생성 구축 모델 (transformer)
  
- 1. 재즈로 학습
- 2. k-pop으로 학습 check point 300까지 진행
-
-
-
 
 
 </div>
@@ -155,4 +148,16 @@
 ---  
 
 
+
+- **python 을 활용한 serial data 실시간 받기**  
+             
+      [window cmd] pip install pyserial  
+      
+      [python]
+      import serial
+      import time
+      import signal
+      import threading
+      import winsound #소리 재생
+      
 
