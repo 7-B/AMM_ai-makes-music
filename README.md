@@ -62,6 +62,7 @@
 <summary> week2 </summary>
 <div markdown="1">
   
+<br>  
 
 - **진행상황**  
 1. 라즈베리 파이  
