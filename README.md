@@ -5,9 +5,11 @@
  **작곡 지식이 없더라도 음악을 만들어보고 싶다!**
 * 사용자가 떠올린 간단한 음을 입력하면 음에 맞춰 노래를 생성해주는 AI
 * 특정 장르의 음악을 계속해서 생성해주는 AI
-
-
-![flow](https://user-images.githubusercontent.com/52736420/64063155-97907e80-cc2b-11e9-9951-991d517f31b4.png)
+    
+    
+**시스템 구조도**
+  
+   ![image](https://user-images.githubusercontent.com/52736420/65112311-2c5fee00-da1a-11e9-868f-7eb271b33677.png)
 
 ## Weekly records
 
