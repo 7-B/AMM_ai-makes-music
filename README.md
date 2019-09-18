@@ -84,21 +84,22 @@
 <summary> week3 </summary>
 <div markdown='1'>
 
+<br>  
   
 - **진행상황**  
- 1. 라즈베리 파이 
+ 1. 라즈베리 파이   
     : 오디오 출력 부분 오류 -> 소프트웨어와 직접 연결 방식 선택 (USB, serial 통신)  
       
- 2. teensy dev 보드 
+ 2. teensy dev 보드   
     : 터치 인식 후 소리 재생 확인 V  
-      
- 3. melody RNN
+       
+ 3. melody RNN  
     : K-POP 1990년대 음악의 midi 파일 학습 
       
- 4. music VAE
+ 4. music VAE  
     : JAZZ 생성 구축 모델, k-pop으로 학습 check point 300까지 진행 (CNN)
     
- 5. score2perf
+ 5. score2perf  
     : 가장 음악다운 음악을 생성해주는 모델, classic 생성 구축 모델 (transformer)
  
 
