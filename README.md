@@ -210,7 +210,8 @@ ONLY teensy USB board 3.2 ! ! !
 로 magenta를 설치한다
 mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
 
-사진!!!!!!!!!!!
+![image](https://user-images.githubusercontent.com/52375252/65214531-47e3fb00-dae5-11e9-8e5f-8d79d7a5f505.png)
+
 
 
   <br>
@@ -244,13 +245,10 @@ gpu가 잘 설치 되었는지 확인하기 위해 다음 코드를 사용한다
           random_matrix = tf.random_uniform(shape=shape, minval=0, maxval=1)
           dot_operation = tf.matmul(random_matrix, tf.transpose(random_matrix))
           sum_operation = tf.reduce_sum(dot_operation)
- 
       startTime = datetime.now()
-      
       with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as session:
-        result = session.run(sum_operation)
+        result = session.run(sum_operation)
         print(result)
- 
         print("\n" * 2)
         print("Time taken:", datetime.now() - startTime)
         print("\n" * 2)
