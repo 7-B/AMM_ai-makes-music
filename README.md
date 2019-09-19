@@ -149,16 +149,30 @@
 ---  
 
 
+### input system 구현 절차
+  
+  <br>
 
-- **python 을 활용한 serial data 실시간 받기**  
+- **필요한 것?**  
+  ONLY teensy USB board 3.2  
+  
+
+- **teensy dev borad 3.2 
+
+
+- **python 을 활용한 serial data 실시간 받기 / 음 추출**  
              
-      [window cmd] pip install pyserial  
-      
-      [python]
+  *1. window command 창에 pyserial 을 설치한다.*
+     
+      pip install pyserial  
+     
+  *2. jupyter notebook 을 키고 아래 라이브러리를 import한다.*  
+  // git clone을 통해 fruit_music.py 를 실행시키는 것도 가능! //
+     
       import serial
       import time
       import signal
       import threading
       import winsound #소리 재생
       
-
+   *3. 코드를 실행시키고 
