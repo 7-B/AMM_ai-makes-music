@@ -209,7 +209,8 @@ ONLY teensy USB board 3.2 ! ! !
 
         pip install magenta==1.1.2
 
-     로 magenta를 설치한다
+     로 magenta를 설치한다.
+  <br>
      mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
 
      ![image](https://user-images.githubusercontent.com/52375252/65214531-47e3fb00-dae5-11e9-8e5f-8d79d7a5f505.png)
