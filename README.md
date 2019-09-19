@@ -205,7 +205,7 @@ ONLY teensy USB board 3.2 ! ! !
   - **CPU 사용**
   <br>
   <br>
-          최신 magenta(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
+     최신 magenta(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
 
         pip install magenta==1.1.2
 
@@ -217,43 +217,43 @@ ONLY teensy USB board 3.2 ! ! !
 
 
   <br>
-  <
+  
     - **GPU 사용** 
   <br>
-최신 magenta gpu(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
+    최신 magenta gpu(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
 
-      pip install magenta_gpu==1.1.2
+          pip install magenta_gpu==1.1.2
 
-로 magenta(ver 1.1.2)를 설치한다.
-  <br>
-mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
+    로 magenta(ver 1.1.2)를 설치한다.
+      <br>
+    mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
 
-![image](https://user-images.githubusercontent.com/52375252/65214394-cd1ae000-dae4-11e9-9a94-665a1d429b98.png)
+    ![image](https://user-images.githubusercontent.com/52375252/65214394-cd1ae000-dae4-11e9-9a94-665a1d429b98.png)
 
 
-gpu 사용을 위해 CUDA와 cuDNN을 다운받아 설치한다. CUDA, cuDNN 설치 후 환경변수 설정을 위해 다음과 같이 입력한다.
+    gpu 사용을 위해 CUDA와 cuDNN을 다운받아 설치한다. CUDA, cuDNN 설치 후 환경변수 설정을 위해 다음과 같이 입력한다.
 
-      export LD_LIBRARY_PATH=”$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64”
-      export CUDA_HOME=/usr/local/cuda-10.0
-      //cuda-(현재 자신의 cuda버전)//
-      
-gpu가 잘 설치 되었는지 확인하기 위해 다음 코드를 사용한다.
+          export LD_LIBRARY_PATH=”$LD_LIBRARY_PATH:/usr/local/cuda-10.0/lib64”
+          export CUDA_HOME=/usr/local/cuda-10.0
+          //cuda-(현재 자신의 cuda버전)//
 
-      import sys
-      import numpy as np
-      import tensorflow as tf
-      from datetime import datetime
-      shape=(int(10000),int(10000))
-      with tf.device("/gpu:0"):
-          random_matrix = tf.random_uniform(shape=shape, minval=0, maxval=1)
-          dot_operation = tf.matmul(random_matrix, tf.transpose(random_matrix))
-          sum_operation = tf.reduce_sum(dot_operation)
-      startTime = datetime.now()
-      with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as session:
-        result = session.run(sum_operation)
-        print(result)
-        print("\n" * 2)
-        print("Time taken:", datetime.now() - startTime)
-        print("\n" * 2)    로 magenta를 설치한다
-212
-    mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
+    gpu가 잘 설치 되었는지 확인하기 위해 다음 코드를 사용한다.
+
+          import sys
+          import numpy as np
+          import tensorflow as tf
+          from datetime import datetime
+          shape=(int(10000),int(10000))
+          with tf.device("/gpu:0"):
+              random_matrix = tf.random_uniform(shape=shape, minval=0, maxval=1)
+              dot_operation = tf.matmul(random_matrix, tf.transpose(random_matrix))
+              sum_operation = tf.reduce_sum(dot_operation)
+          startTime = datetime.now()
+          with tf.Session(config=tf.ConfigProto(log_device_placement=True)) as session:
+            result = session.run(sum_operation)
+            print(result)
+            print("\n" * 2)
+            print("Time taken:", datetime.now() - startTime)
+            print("\n" * 2)    로 magenta를 설치한다
+
+       mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
