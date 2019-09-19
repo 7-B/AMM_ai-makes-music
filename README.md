@@ -150,7 +150,7 @@
 
 <br>
 
-### input system (fruit music) 구현 절차
+### ◎ input system (fruit music) 구현 절차
   
   <br>
 
@@ -160,8 +160,13 @@ ONLY teensy USB board 3.2 ! ! !
   
   ![image](https://user-images.githubusercontent.com/52736420/65213127-dbb2c880-dadf-11e9-9949-0b48344b8ef6.png)
 
-- **teensy dev borad 3.2 
+- **teensy dev borad 3.2 **  
+![image](https://user-images.githubusercontent.com/52736420/65213379-e588fb80-dae0-11e9-96c2-f06ecaf98aff.png)  
 
+
+      위의 그림과 같이 해당 핀 8개가 터치인식을 담당하므로 해당 8개의 핀에 리드를 연결한다.
+      리드 연결 전에 고정되게 납땜을 하면 좋다.
+    
 
 - **python 을 활용한 serial data 실시간 받기/음 추출**  
              
