@@ -160,12 +160,20 @@ ONLY teensy USB board 3.2 ! ! !
   
   ![image](https://user-images.githubusercontent.com/52736420/65213127-dbb2c880-dadf-11e9-9949-0b48344b8ef6.png)
 
-- **teensy dev borad 3.2 **  
+- **teensy dev borad 3.2**  
 ![image](https://user-images.githubusercontent.com/52736420/65213379-e588fb80-dae0-11e9-96c2-f06ecaf98aff.png)  
 
 
+      먼저 아두이노를 설치한다.
+      
       위의 그림과 같이 해당 핀 8개가 터치인식을 담당하므로 해당 8개의 핀에 리드를 연결한다.
       리드 연결 전에 고정되게 납땜을 하면 좋다.
+      연결된 리드에 과일을 연결해 놓는다.
+      그 후, USB를 연결하고 fruit-genie-fw.ino 를 업로드하면 teensy 창이 뜨는데 버튼을 누르면 된다.
+      그러면 업로드 완료!
+      
+      fruit-genie-fw.ino 는 magenta 오픈소스를 활용하였다.
+      // git clone을 통해 fruit-genie-fw.ino 를 다운! //
     
 
 - **python 을 활용한 serial data 실시간 받기/음 추출**  
@@ -183,4 +191,8 @@ ONLY teensy USB board 3.2 ! ! !
       import threading
       import winsound #소리 재생
       
-   *3. 코드를 실행시키고 
+   *3. 코드를 실행시키고 과일을 눌러보자!*  
+   
+        만약 여기서 실행이 안된다면 teensy 의 baud, port 넘버를 확인해 보자.  
+        
+   ![image](https://user-images.githubusercontent.com/52736420/65213810-92b04380-dae2-11e9-9810-630bca19031d.png)
