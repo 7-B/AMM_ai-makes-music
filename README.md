@@ -148,19 +148,22 @@
 
 ---  
 
+<br>
 
-### input system 구현 절차
+### input system (fruit music) 구현 절차
   
   <br>
 
 - **필요한 것?**  
-  ONLY teensy USB board 3.2  
   
+ONLY teensy USB board 3.2 ! ! ! 
+  
+  ![image](https://user-images.githubusercontent.com/52736420/65213127-dbb2c880-dadf-11e9-9949-0b48344b8ef6.png)
 
 - **teensy dev borad 3.2 
 
 
-- **python 을 활용한 serial data 실시간 받기 / 음 추출**  
+- **python 을 활용한 serial data 실시간 받기/음 추출**  
              
   *1. window command 창에 pyserial 을 설치한다.*
      
