@@ -257,7 +257,9 @@ ONLY teensy USB board 3.2 ! ! !
             print("Time taken:", datetime.now() - startTime)
             print("\n" * 2)    
             
-            
+<br>
+<br>
+
 - **Model 사용** 
-     ㅇㅇㅇㅇ
+  <br>
 
