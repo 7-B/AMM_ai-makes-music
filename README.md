@@ -202,13 +202,14 @@ ONLY teensy USB board 3.2 ! ! !
 
 - **설치 및 환경변수 설정**  
   <br>
-- **CPU 버전** 
-최신 magenta(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
+  *1. CPU 사용시.*
+  <br>
+    최신 magenta(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
 
       pip install magenta==1.1.2
 
-로 magenta를 설치한다
-mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
+    로 magenta를 설치한다
+    mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
 
 ![image](https://user-images.githubusercontent.com/52375252/65214531-47e3fb00-dae5-11e9-8e5f-8d79d7a5f505.png)
 
@@ -251,4 +252,6 @@ gpu가 잘 설치 되었는지 확인하기 위해 다음 코드를 사용한다
         print(result)
         print("\n" * 2)
         print("Time taken:", datetime.now() - startTime)
-        print("\n" * 2)
+        print("\n" * 2)    로 magenta를 설치한다
+212
+    mageta github에서 install에서 pip package에서 다음과 사진과 같이 들어간 후 magenta 파일을 다운 받는다.
