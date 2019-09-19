@@ -205,7 +205,7 @@ ONLY teensy USB board 3.2 ! ! !
   - **CPU 사용**
   <br>
   <br>
-      최신 magenta(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
+          최신 magenta(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
 
         pip install magenta==1.1.2
 
