@@ -217,6 +217,7 @@ ONLY teensy USB board 3.2 ! ! !
 
 
   <br>
+  <
     - **GPU 사용** 
   <br>
 최신 magenta gpu(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
