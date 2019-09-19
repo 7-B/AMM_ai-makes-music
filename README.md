@@ -202,7 +202,7 @@ ONLY teensy USB board 3.2 ! ! !
 
 - **설치 및 환경변수 설정**  
   <br>
-  *1. CPU 사용시.*
+  - **CPU 사용**
   <br>
   <br>
       최신 magenta(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
@@ -217,7 +217,7 @@ ONLY teensy USB board 3.2 ! ! !
 
 
   <br>
-- **GPU 버전** 
+    - **GPU 사용** 
   <br>
 최신 magenta gpu(ver 1.1.3) 설치 시 tensorflow 1.1.15 이상 설치 하라는 오류가 나오므로 
 
